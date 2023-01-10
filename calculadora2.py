@@ -29,6 +29,12 @@ while opcion != "no":
         y=int(input("Ingrese el segundo numero para calcular: "))
         if opcion==1:
             print("la suma es ", x+y)
+        elif opcion==2:
+            print("la resta es ", x-y)
+        elif opcion==3:
+            print("la multiplicacion es ", x*y)
+        elif opcion==4:
+            print("la division es ",x/y)
     
 
         opcion = input("Desea realizar otra operacion 'si' o 'no': ")
