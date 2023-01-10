@@ -3,7 +3,7 @@ from math import sqrt, sin , cos , tan
 opcion = "si"
 
 while opcion != "no":
-    print(""" ><Calculadora><
+    print(""" >< Calculadora ><
           
           Operacion a realizar:"
           
@@ -31,10 +31,10 @@ while opcion != "no":
         
         if opcion==1:
             y=int(input("Ingrese el segundo numero para calcular: "))
-            print("la suma es ", x+y)
+            print("La suma es ", x+y)
         elif opcion==2:
             y=int(input("Ingrese el segundo numero para calcular: "))
-            print("la resta es ", x-y)
+            print("La resta es ", x-y)
         elif opcion==3:
             y=int(input("Ingrese el segundo numero para calcular: "))
             print("la multiplicacion es ", x*y)
@@ -42,7 +42,7 @@ while opcion != "no":
             y=int(input("Ingrese el segundo numero para calcular: "))
             print("la division es ",x/y)
         elif opcion==5:
-            print("la raiz es ",sqrt(x))
+            print("La raiz es ",sqrt(x))
         elif opcion==6:
             y=int(input("Ingrese el segundo numero para calcular: "))
             print("El exponente es ",x**y)
